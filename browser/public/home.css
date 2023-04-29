@@ -1,0 +1,252 @@
+.spacechathome {
+    background-color: #457cd6;
+    height: 12px;
+    background: linear-gradient(-45deg, #528be8, #5fd6f7, #0095ff, #2192FF);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.home {
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+.introduction {
+    padding: 10px;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.introduction h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    margin: 10px auto 20px auto;
+    border: 0;
+    line-height: 30px;
+}
+
+.introduction h1 mark {
+    color: white;
+    background-color: #0d111700;
+    font-size: 28px;
+    text-decoration:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #79b3ff;
+}
+
+.enter_space {
+    margin: 50px auto 10px auto;
+    width: 100%;
+}
+
+.enter_form {
+    margin-bottom: 40px;
+}
+
+.enter_note {
+    padding: 15px;
+    background-color: #043d669f;
+    border-radius: 6px 6px 6px 6px;
+    font-size: 15px;
+    font-family: 'Righteous', cursive;
+}
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #043d669f;
+    margin-left: 20px;
+  }
+.webEnter {
+    font-family: 'Righteous', cursive;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    border: 3px solid #5b87ce;
+    background-color: #457cd6;
+    border-radius: 4px;
+}
+
+.arrow_right {
+    filter: invert(96%) sepia(88%) saturate(354%) hue-rotate(177deg) brightness(97%) contrast(94%);
+}
+
+.webEnter a:hover {
+    transition: 0.3s;
+    background-color: #457cd6;
+}
+
+.ai {
+    min-height: 80px; 
+    border-bottom: 2px solid #1c222c;
+    padding-top: 20px;
+    background-color: #11151b;
+}
+
+.ai h2 {
+    font-family: 'Righteous', cursive;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    font-size: 24px;
+}
+
+.discription {
+    line-height: 30px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: gainsboro;
+}
+
+.dashbord {
+    background-color: #11151b;
+    font-family: 'Righteous', cursive;
+}
+
+.dashbord h1 {
+    padding: 15px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 26px;
+    width: 87%;
+    margin: auto;
+}
+
+.dashbord_mine {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    border: 0;
+    border-top: 1px solid #1c222c;
+    margin-top: 10px;
+}
+
+.dashbord_mine a {
+    padding: 15px;
+    font-size: 15px;
+    color: #cccccc;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dashbord_mine a:hover {
+    background-color: #0095ff;
+}
+
+
+.mask {
+    border: 0;
+    border-left: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        #57b9ff, 
+        #043d66,
+        #57b9ff,
+        #043d66
+      ) 1 100%;
+    width: 90%;
+    margin: auto;
+}
+
+.sectionY {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sectionY span {
+    height: 8px;
+    width: 8px;
+    background-color: #0d1117;
+    border: 2.4px solid #57b9ff;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: -7.4px;
+}
+
+.sectionY h1 {
+    font-size: 29px;
+    padding: 15px 15px 0 15px;
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.sectionX {
+    padding: 10px;
+    width: 80%;
+    max-width: 1400px;
+    margin: 0px auto 10px auto;
+}
+
+.sectionX p {
+    font-size: 19px;
+    color: gainsboro;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.space {
+    margin: 20px auto 20px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #24292f;
+    background-color: #191f28;
+    width: 100%;
+    color: #cccccc;
+}
+
+.space h2 {
+    font-size: 19px;
+    padding: 12px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.space p {
+    font-size: 18px;
+    padding: 0 12px 10px 12px;
+    margin-top: 0;
+    line-height: 28px;
+}
+
+.end {
+    padding: 15px;
+    background-color: #11151b;
+    border-top: 1px solid #1c222c;
+}
+
+.copyright {
+    margin: 20px auto 10px auto;
+    font-size: 15px;
+    color: #cccccc;
+    font-family: 'Righteous', cursive;
+}
